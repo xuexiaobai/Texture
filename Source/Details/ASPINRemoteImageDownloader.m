@@ -318,7 +318,7 @@ static ASPINRemoteImageDownloader *sharedDownloader = nil;
 - (id)alternateRepresentationWithData:(NSData *)data options:(PINRemoteImageManagerDownloadOptions)options
 {
 #if PIN_ANIMATED_AVAILABLE
-  if ([data pin_isGIF]) {
+  if ([data pin_isAnimatedGIF]) {
     return data;
   }
 #if PIN_WEBP_AVAILABLE
