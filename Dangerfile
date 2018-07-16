@@ -19,7 +19,7 @@ warn("PR is classed as Work in Progress") if github.pr_title.include? "[WIP]"
 warn("This is a big PR, please consider splitting it up to ease code review.") if git.lines_of_code > 500
 
 # Modifying the changelog will probably get overwritten.
-if git.modified_files.include?("CHANGELOG.md") && !github.pr_title.include? "#changelog"
+if git.modified_files.include?("CHANGELOG.md") && !github.pr_title.include?("#changelog")
   warn("PR modifies CHANGELOG.md, which is a generated file. Add #changelog to the title to suppress this warning.")
 end
 
