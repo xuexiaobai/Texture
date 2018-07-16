@@ -30,7 +30,7 @@
 - ASDKFastImageNamed UIImage initializer nullability \#trivial [\#897](https://github.com/TextureGroup/Texture/pull/897) ([alexhillc](https://github.com/alexhillc))
 - \#trivial Fixes an issue where playback may not start [\#896](https://github.com/TextureGroup/Texture/pull/896) ([garrettmoon](https://github.com/garrettmoon))
 - Update configuration schema \#trivial [\#893](https://github.com/TextureGroup/Texture/pull/893) ([Adlai-Holler](https://github.com/Adlai-Holler))
-- replace ` with code in containers-overview.md [\#884](https://github.com/TextureGroup/Texture/pull/884) ([everettjf](https://github.com/everettjf))
+- replace \` with code in containers-overview.md [\#884](https://github.com/TextureGroup/Texture/pull/884) ([everettjf](https://github.com/everettjf))
 - \[Docs\] Fix typos in layout specs section \#trivial [\#883](https://github.com/TextureGroup/Texture/pull/883) ([morozkin](https://github.com/morozkin))
 - Match interfacestate update sequence to uikit [\#882](https://github.com/TextureGroup/Texture/pull/882) ([wsdwsd0829](https://github.com/wsdwsd0829))
 - Add experiment to skip creating UIViews altogether for constants [\#881](https://github.com/TextureGroup/Texture/pull/881) ([Adlai-Holler](https://github.com/Adlai-Holler))
